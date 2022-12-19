@@ -1,3 +1,4 @@
+
 export class Pessoa {
    
     private _nome: String;
@@ -18,7 +19,7 @@ export class Pessoa {
         this._cpf = value;
     }
 
-    public get elefone(): Number {
+    public get telefone(): Number {
         return this._telefone;
     }
     public set telefone(value: Number) {
